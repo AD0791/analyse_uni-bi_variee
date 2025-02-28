@@ -57,6 +57,8 @@ htmlcov/
 .mypy_cache/
 .pytest_cache/
 
+*.bak
+
 #keep
 !data_set.xlsx
 !EI.xlsx
