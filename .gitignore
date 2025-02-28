@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+.ropeproject/
+.vs/
+
+# Data Analysis Artifacts
+*.csv
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.parquet
+*.feather
+data/
+output/
+figures/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+environment.yml
+environment.yaml
+requirements.txt
+Pipfile
+Pipfile.lock
+poetry.lock
+pyproject.toml
+
+# Build and Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.cache
+.coverage
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+
+#keep
+!data_set.xlsx
+!EI.xlsx
